@@ -1,0 +1,39 @@
+{
+  "name": "zaryab-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Zaryab Ahmad's interactive portfolio \u2014 Next.js 16, Tailwind v4, Motion.",
+  "author": "Zaryab Ahmad <zaryabahmad454@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaryaaab/zaryab-portfolio.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "shots": "node scripts/readme-shots.mjs"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "cmdk": "^1.1.1",
+    "lenis": "^1.3.26",
+    "lucide-react": "^1.48.0",
+    "motion": "^13.4.6",
+    "next": "16.3.7",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.7",
+    "puppeteer-core": "^25.12.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
